@@ -98,14 +98,14 @@ h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 nav {
-  overflow: hidden;
-  background: white;
-  position: fixed; 
   top: 0px; 
   margin: auto 0;
   padding-bottom: 20px;
   width: 880px;
   display: flex;
+  overflow: hidden;
+  background: white;
+  position: absolute; 
 }
 
 nav a {
@@ -134,8 +134,8 @@ header {
 header .title {
   font-size: 60px;
   text-align: center;
-  /* margin: 0px 15px;
-	margin-right: 100px; */
+  margin: 200px 0;
+
 }
 
 header .title button {
@@ -150,7 +150,8 @@ header .title button:hover {
 }
 
 header .RoundLogo {
-  margin-bottom: 20px;
+
+  margin-bottom: 10px;
 }
 
 .top-content {
@@ -253,13 +254,17 @@ footer {
     }
   
 
-    .title h1 {
+    header .title {
+
       flex-direction: column;
-      margin: auto;
+      margin: auto 0;
       align-items: center;
+      margin-top: 150px;
     }
   
     header .title button {
+
+      
       border: 1px solid black;
       margin-top: 0px;
       padding: 6px 40px;
