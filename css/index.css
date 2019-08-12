@@ -124,7 +124,7 @@ nav .logo {
 
 header {
 
-  margin-top: 100px;
+  margin-top: 20px;
   width: 880px;
   display: flex;
   justify-content: space-around;
@@ -162,7 +162,7 @@ header .RoundLogo {
 
 .top-content div {
   text-align: justify;
-  width: 48%;
+  width: 50%;
 }
 
 .middle-img {
@@ -173,12 +173,12 @@ header .RoundLogo {
   width: 880px;
   display: flex;
   justify-content: space-around;
-  margin-bottom: 20px;
+  margin: 0 auto;
 }
 
 .bottom-content div {
-  width: 30%;
-  text-align: justify;
+  width: 50%;
+  text-align: ;
 }
 
 .contact {
@@ -205,16 +205,15 @@ footer {
 
     .body {
 
-      width: 500px;
+      width: 480px;
       margin: auto 0;
-      border: 1px solid red;
       padding: 10px;
 
     }
   
     .navigation {
       display: flex;
-      flex-direction: column-reverse;
+      flex-direction: column;
       padding: 0px;
       align-items: center;
     }
@@ -223,12 +222,12 @@ footer {
       display: flex;
       flex-direction: column;
       margin: auto 0;
-      padding-bottom: 20px 1%;
       width: 100%;
+      align-items: center;
     }
   
     nav a {
-      text-align: center;
+      justify-content: center;
       text-decoration: none;
       color: gray;
       border-bottom: 1px solid gray;
@@ -267,7 +266,7 @@ footer {
     header .RoundLogo {
       flex-direction: column;
       align-items: center;
-      margin: 30% auto;
+      margin: 30px 30px;
     }
   
     .top-content {
@@ -282,11 +281,10 @@ footer {
     }
   
     .middle-img {
-      margin: 30px 0px;
+      margin: 30px 30px;
       max-width: 100%;
       height: auto;
-      margin: 0 auto;
-      background-size: 100% 100%;
+      align-items: center;
     }
   
     .bottom-content {
