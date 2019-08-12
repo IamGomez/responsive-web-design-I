@@ -281,8 +281,8 @@ footer {
     }
   
     .middle-img {
-      margin: 30px 30px;
-      max-width: 100%;
+      margin: 20px 40px;
+      max-width: 80%;
       height: auto;
       align-items: center;
     }
@@ -311,3 +311,9 @@ footer {
       text-align: center;
     }
   }
+
+
+  @media screen and (max-width: 800){
+
+
+    
