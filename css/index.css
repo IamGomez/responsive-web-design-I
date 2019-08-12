@@ -262,18 +262,7 @@ footer {
       margin-top: 150px;
     }
   
-    header .title button {
 
-      
-      border: 1px solid black;
-      margin-top: 0px;
-      padding: 6px 40px;
-    }
-  
-    header .title button:hover {
-      background: black;
-      color: white;
-    }
   
     header .RoundLogo {
       flex-direction: column;
